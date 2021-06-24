@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --first-text-primary: #212121;
   --main-background-color: #ffffff;
   --highlight-color: #2196f3;
@@ -41,22 +41,20 @@ a {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+  } */
 
+/* Не используется
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
-.customers_pading {
-  padding-top: 112px;
-}
-
+/* Не используется
 .zeroing_section_top {
   padding-top: 0px;
-}
+} */
 
-.hero_section_top {
+/* .hero_section_top {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -71,7 +69,7 @@ a {
   background-position: center;
   padding-top: 0px;
   padding-bottom: 0px;
-}
+} */
 
 .icon_list_social {
   border: none;
@@ -110,7 +108,7 @@ a {
 }
 
 /* All nav menu */
-.header_border {
+/* .header_border {
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -119,7 +117,7 @@ a {
 .all_nav {
   display: var(--display-property-flex);
   align-items: center;
-}
+} */
 
 /* logo */
 
@@ -305,26 +303,6 @@ h1 span {
 .nav-link-tel:hover {
   fill: var(--highlight-color);
 }
-/* тест */
-
-/* li .nav-link-mail::before,
-li .nav-link-tel::before {
-  content: "";
-  display: inline-block;
-  margin-right: 10px;
-}
-
-li .nav-link-mail::before {
-  width: 16px;
-  height: 12px;
-  background-image: url(/images/icon/envelope.svg);
-}
-
-li .nav-link-tel::before {
-  width: 10px;
-  height: 16px;
-  background-image: url(/images/icon/smartphone.svg);
-} */
 
 .nav-link-mail {
   display: flex;
@@ -546,20 +524,6 @@ li .nav-link-tel::before {
   fill: var(--highlight-color);
 }
 
-/* .our_social:focus,
-.our_social:hover {
-  fill: var(--main-background-color);
-  background-color: var(--highlight-color);
-} */
-
-/* .customers_icons:nth-child(6n) {
-  margin-right: 0px;
-}
-
-.customers_icons:nth-last-child(-n + 6) {
-  margin-bottom: 0px;
-} */
-
 /* Cвойство flexbox для основной секции (портфоли)*/
 
 /* icon portfolio menu */
@@ -760,7 +724,9 @@ li .nav-link-tel::before {
   margin-right: 10px;
 }
 
-.mailing {
+/* Почтовая рассылка */
+
+/* .mailing {
   display: inline-block;
   margin-top: 12px;
   margin-bottom: 40px;
@@ -796,6 +762,7 @@ li .nav-link-tel::before {
 }
 
 .mailing_button {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -814,9 +781,11 @@ li .nav-link-tel::before {
 
 .icon_mailing {
   margin-left: 10px;
-}
+} */
 
-.backdrop {
+/* Модальное окно */
+
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1025,11 +994,11 @@ textarea::placeholder {
   background-color: var(--highlight-color);
   border-color: var(--highlight-color);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Кнопка отправить в модальном окне */
 
-.modal_send {
+/* .modal_send {
   display: inline-block;
   align-items: center;
   text-align: center;
@@ -1051,4 +1020,4 @@ textarea::placeholder {
   border: 1px solid transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
+} */
