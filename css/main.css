@@ -49,7 +49,7 @@ a {
   padding-bottom: 94px;
 }
 
-.hero_section_top {
+.overlay_image {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -361,7 +361,7 @@ textarea::placeholder {
   padding-bottom: 25px;
 }
 
-.all_nav {
+.site_nav {
   display: var(--display-property-flex);
   align-items: center;
 }
