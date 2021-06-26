@@ -9,50 +9,49 @@
 
 .mailing {
   display: flex;
+}
+.mailing input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
 
-  & input {
-    width: 358px;
-    height: 50px;
-    margin-right: 12px;
-    background-color: inherit;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-  }
+.mailing input::placeholder {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 295px;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
-  & input::placeholder {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 16px;
-    padding-right: 295px;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-  }
+.mailing__button {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--main-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--highlight-color);
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
 
-  .mailing__button {
-    font-family: Roboto;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    color: var(--main-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--highlight-color);
-    width: 200px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-  }
-
-  .mailing__icon {
-    margin-left: 10px;
-  }
+.mailing__icon {
+  margin-left: 10px;
 }
