@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>"Homework-#-6-home-page"</title>
+    <title>"Homework-#-7-home-page"</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -443,7 +443,6 @@
           <h3 class="footer_box__title">Подпишитесь на рассылку</h3>
           <form class="mailing">
             <input type="email" name="mailing" placeholder="E-mail" />
-            <label for="mail"></label>
             <button class="mailing__button" type="submit">
               <link rel="stylesheet" href="#" />Подписаться
               <svg class="mailing__icon" width="24" height="24">
@@ -460,39 +459,39 @@
           Оставьте свои данные, мы вам перезвоним
         </h3>
         <button class="modal_window__close" data-modal-close>
-          <svg class="icon_button" width="11" height="11">
+          <svg width="11" height="11">
             <use href="./images/icon/icons.svg#icon-close-button"></use>
           </svg>
         </button>
-        <form class="modal_feedback_form">
-          <div class="feedback_form">
-            <label class="feedback_text">Имя</label>
-            <div class="form_field">
-              <svg class="icon_form" width="18px" height="18px">
+        <form class="form_nav">
+          <div class="form_nav__feedback">
+            <label class="form_nav__text">Имя</label>
+            <div class="form_nav__field">
+              <svg class="form_nav__icon" width="18px" height="18px">
                 <use
                   href="./images/icon/icons.svg#icon-person-black-form"
                 ></use>
               </svg>
               <input type="text" name="user" />
             </div>
-            <label class="feedback_text" for="tel">Телефон</label>
-            <div class="form_field">
-              <svg class="icon_form" width="18px" height="18px">
+            <label class="form_nav__text">Телефон</label>
+            <div class="form_nav__field">
+              <svg class="form_nav__icon" width="18px" height="18px">
                 <use href="./images/icon/icons.svg#icon-phone-black-form"></use>
               </svg>
               <input type="tel" name="phone_number" />
             </div>
-            <label class="feedback_text" for="mail">Почта</label>
-            <div class="form_field">
-              <svg class="icon_form" width="18px" height="18px">
+            <label class="form_nav__text">Почта</label>
+            <div class="form_nav__field">
+              <svg class="form_nav__icon" width="18px" height="18px">
                 <use href="./images/icon/icons.svg#icon-email-black-form"></use>
               </svg>
               <input type="email" name="mail" />
             </div>
-            <label class="feedback_text" for="comment">Комментарий</label>
-            <div class="form_field">
+            <label class="form_nav__text" for="comment">Комментарий</label>
+            <div class="form_nav__field">
               <textarea
-                class="comment"
+                class="form_nav__comment"
                 name="comment"
                 id="comment"
                 rows="8"
@@ -500,17 +499,17 @@
               ></textarea>
             </div>
             <!-- Чекбокс -->
-            <div class="checkbox_form">
-              <label class="agreement_text">
+            <div class="checkbox">
+              <label class="checkbox__nav">
                 <input
-                  class="checkbox_input"
+                  class="checkbox__checkmark"
                   type="checkbox"
                   name="agreement"
                 />
-                <svg class="check_icon">
+                <svg class="checkbox__icon">
                   <use href="./images/icon/icons.svg#icon-check"></use></svg
                 >Соглашаюсь с рассылкой и принимаю<span>
-                  <a class="agreement" href="#">Условия договора</a>
+                  <a class="checkbox__link" href="#">Условия договора</a>
                 </span>
               </label>
             </div>
@@ -519,7 +518,7 @@
               <button
                 data-modal-open
                 type="button"
-                class="pointer modal_send_inside"
+                class="pointer modal_send__button"
               >
                 Отправить
               </button>
